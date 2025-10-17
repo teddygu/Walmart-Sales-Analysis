@@ -41,12 +41,13 @@ Usage
 1. Preprocess Data:
 
    
-   python data_prep.py
+   			python data_prep.py
 
      -Generates cleaned and feature-rich train/val datasets in data/processed/.
 
-3. Train Model:
-           python train_model.py
+2. Train Model:
+   
+   			python train_model.py
    
    -Trains a LightGBM model and saves:
 
@@ -65,8 +66,10 @@ Launch Jupyter Notebook:
 
 Or let the notebook auto-generate a PDF report in models/Walmart_Sales_Report_YYYYMMDD.pdf.
 
-4️⃣ Run the Prediction API
-python predict_api.py
+4. Run the Prediction API
+  
+  
+   		python predict_api.py
 
 
 Then send a test request:
@@ -79,15 +82,23 @@ curl -X POST http://127.0.0.1:5000/predict \
 Example EDA Output
 
 1. Total Weekly Sales Over Time
+
+
 Shows clear seasonality and spikes during major holidays.
 
 2. Monthly and Holiday Effects
+
+
 Reveals cyclical patterns and increased sales during November–December.
 
 3. Feature Importance
+
+   
 Top features include lag_1, rolling_4, and IsHoliday.
 
 4. Auto-generated Report
+
+   
 A complete PDF summary is saved to /models, including all visuals and top features.
 
 Evaluation Metrics 
@@ -97,10 +108,12 @@ Evaluation Metrics
 | MAE  | Mean Absolute Error – average absolute deviation              |
 | MAPE | Mean Absolute Percentage Error – relative accuracy measure    |
 
-Future Improvements 
-Integrate SHAP explainability for model interpretation 
-add weather promotional data as external regressors 
-deploy api via FastAPI or Docker container 
-Build interactive Plotly dashboard for live analysis
+Future Improvements:
+
+
+	-Integrate SHAP explainability for model interpretation 
+	-add weather promotional data as external regressors 
+	-deploy api via FastAPI or Docker container 
+	-Build interactive Plotly dashboard for live analysis
 
 
