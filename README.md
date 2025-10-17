@@ -101,7 +101,6 @@ Shows clear seasonality and spikes during major holidays.
 Reveals cyclical patterns and increased sales during November–December.
 
 3. Feature Importance
-
    
 Top features include lag_1, rolling_4, and IsHoliday.
 
