@@ -7,20 +7,29 @@ This end-to-end project includes data preprocessing, model training, evaluation,
 Features
 
 Feature Engineering:
+
   -Time-based features (year, month, week, day)
+  
   -Lag and rolling average sales
+  
   -Holiday detection (via holidays library)
+  
   -Store and department encoding
 
 Machine Learning:
   -LightGBM regression model
+
   -Time-series aware train/validation split
+  
   -RMSE, MAE, and MAPE evaluation metrics
 
 Visualization & Reporting:
   -Jupyter notebook for EDA and feature importance
+  
   -Auto-generated PDF summary report (via reportlab)
+  
   -Correlation heatmaps and seasonal plots
+  
 
 Deployment
   -Flask REST API for predictions
@@ -111,9 +120,12 @@ Evaluation Metrics
 Future Improvements:
 
 
-	-Integrate SHAP explainability for model interpretation 
-	-add weather promotional data as external regressors 
-	-deploy api via FastAPI or Docker container 
-	-Build interactive Plotly dashboard for live analysis
+-Integrate SHAP explainability for model interpretation 
+
+-add weather promotional data as external regressors 
+
+-deploy api via FastAPI or Docker container 
+
+-Build interactive Plotly dashboard for live analysis
 
 
