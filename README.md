@@ -38,15 +38,14 @@ Technologies Used
 | Version Control  | Git & GitHub           |
 
 Usage
-1. Preprocess Data
-     python data_prep.py
+1. Preprocess Data:
+   python data_prep.py
 
      -Generates cleaned and feature-rich train/val datasets in data/processed/.
 
-2. Train Model
-   python train_model.py
-
-
+2. Train Model:
+           python train_model.py
+   
    -Trains a LightGBM model and saves:
 
       1.models/lgb_model.joblib
@@ -55,11 +54,11 @@ Usage
 
       3.models/val_predictions.csv
 
-3. Explore Data & Generate Report
+4. Explore Data & Generate Report
 
 Launch Jupyter Notebook:
 
-\\jupyter notebook walmart_sales_eda.ipynb
+    jupyter notebook walmart_sales_eda.ipynb
 
 
 Or let the notebook auto-generate a PDF report in models/Walmart_Sales_Report_YYYYMMDD.pdf.
