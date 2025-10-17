@@ -39,11 +39,13 @@ Technologies Used
 
 Usage
 1. Preprocess Data:
+
+   
    python data_prep.py
 
      -Generates cleaned and feature-rich train/val datasets in data/processed/.
 
-2. Train Model:
+3. Train Model:
            python train_model.py
    
    -Trains a LightGBM model and saves:
