@@ -6,25 +6,25 @@ This end-to-end project includes data preprocessing, model training, evaluation,
 
 Features
 
-Feature Engineering
-  *Time-based features (year, month, week, day)
-  *Lag and rolling average sales
-  *Holiday detection (via holidays library)
-  *Store and department encoding
+Feature Engineering:
+  -Time-based features (year, month, week, day)
+  -Lag and rolling average sales
+  -Holiday detection (via holidays library)
+  -Store and department encoding
 
-Machine Learning
-  *LightGBM regression model
-  *Time-series aware train/validation split
-  *RMSE, MAE, and MAPE evaluation metrics
+Machine Learning:
+  -LightGBM regression model
+  -Time-series aware train/validation split
+  -RMSE, MAE, and MAPE evaluation metrics
 
-Visualization & Reporting
-  *Jupyter notebook for EDA and feature importance
-  *Auto-generated PDF summary report (via reportlab)
-  *Correlation heatmaps and seasonal plots
+Visualization & Reporting:
+  -Jupyter notebook for EDA and feature importance
+  -Auto-generated PDF summary report (via reportlab)
+  -Correlation heatmaps and seasonal plots
 
 Deployment
-  *Flask REST API for predictions
-  *Ready for Docker or cloud deployment
+  -Flask REST API for predictions
+  -Ready for Docker or cloud deployment
 
 Technologies Used
 | Category         | Tools                  |
@@ -41,13 +41,13 @@ Usage
 1. Preprocess Data
      python data_prep.py
 
-     *Generates cleaned and feature-rich train/val datasets in data/processed/.
+     -Generates cleaned and feature-rich train/val datasets in data/processed/.
 
 2. Train Model
    python train_model.py
 
 
-   *Trains a LightGBM model and saves:
+   -Trains a LightGBM model and saves:
 
       1.models/lgb_model.joblib
 
