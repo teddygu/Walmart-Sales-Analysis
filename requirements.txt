@@ -1,0 +1,10 @@
+pandas>=1.5
+numpy
+scikit-learn
+lightgbm
+flask
+joblib
+pytz
+holidays
+matplotlib
+seaborn
