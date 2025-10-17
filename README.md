@@ -13,18 +13,18 @@ Feature Engineering
   *Store and department encoding
 
 Machine Learning
-  LightGBM regression model
-  Time-series aware train/validation split
-  RMSE, MAE, and MAPE evaluation metrics
+  *LightGBM regression model
+  *Time-series aware train/validation split
+  *RMSE, MAE, and MAPE evaluation metrics
 
 Visualization & Reporting
-  Jupyter notebook for EDA and feature importance
-  Auto-generated PDF summary report (via reportlab)
-  Correlation heatmaps and seasonal plots
+  *Jupyter notebook for EDA and feature importance
+  *Auto-generated PDF summary report (via reportlab)
+  *Correlation heatmaps and seasonal plots
 
 Deployment
-  Flask REST API for predictions
-  Ready for Docker or cloud deployment
+  *Flask REST API for predictions
+  *Ready for Docker or cloud deployment
 
 Technologies Used
 | Category         | Tools                  |
@@ -39,22 +39,21 @@ Technologies Used
 
 Usage
 1. Preprocess Data
-python data_prep.py
+     python data_prep.py
 
-
-\\Generates cleaned and feature-rich train/val datasets in data/processed/.
+     *Generates cleaned and feature-rich train/val datasets in data/processed/.
 
 2. Train Model
-python train_model.py
+   python train_model.py
 
 
-\\Trains a LightGBM model and saves:
+   *Trains a LightGBM model and saves:
 
-  models/lgb_model.joblib
+      1.models/lgb_model.joblib
 
-  Validation metrics (RMSE, MAE, MAPE)
+      2.Validation metrics (RMSE, MAE, MAPE)
 
-  models/val_predictions.csv
+      3.models/val_predictions.csv
 
 3. Explore Data & Generate Report
 
